@@ -2393,4 +2393,10 @@ Using generated security password: 3685798e-9748-4cfb-924a-336c85341073
 ""2020-03-16 14:13:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-03-16 14:13:10 - Initializing Servlet 'dispatcherServlet'
 ""2020-03-16 14:13:10 - Completed initialization in 7 ms
+""2020-03-16 15:23:37 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m27s705ms745µs900ns).
+""2020-03-16 15:36:26 - Application shutdown requested.
+""2020-03-16 15:36:26 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-16 15:36:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-16 15:36:26 - HikariPool-1 - Shutdown initiated...
+""2020-03-16 15:36:26 - HikariPool-1 - Shutdown completed.
 "
