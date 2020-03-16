@@ -2289,4 +2289,108 @@ Using generated security password: 1547b28e-df14-467f-a987-919c18926e93
 ""2020-03-16 13:53:00 - Exposing 2 endpoint(s) beneath base path '/actuator'
 ""2020-03-16 13:53:00 - Tomcat started on port(s): 7070 (http) with context path ''
 ""2020-03-16 13:53:00 - Started FlightSearchProgramApplication in 3.78 seconds (JVM running for 4.45)
+""2020-03-16 13:58:58 - Application shutdown requested.
+""2020-03-16 13:58:58 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-16 13:58:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-16 13:58:58 - HikariPool-1 - Shutdown initiated...
+""2020-03-16 13:58:58 - HikariPool-1 - Shutdown completed.
+""2020-03-16 14:05:04 - Starting FlightSearchProgramApplicationTests on vinayprajapati with PID 12052 (started by vinayprajapati in E:\FlightSearchProgram)
+""2020-03-16 14:05:04 - No active profile set, falling back to default profiles: default
+""2020-03-16 14:05:05 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-16 14:05:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-16 14:05:05 - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+""2020-03-16 14:05:05 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-16 14:05:05 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-16 14:05:05 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.flightsearch.repository.FlightRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-16 14:05:05 - Finished Spring Data repository scanning in 5ms. Found 0 LDAP repository interfaces.
+""2020-03-16 14:05:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-16 14:05:06 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-16 14:05:06 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-16 14:05:06 - HikariPool-1 - Starting...
+""2020-03-16 14:05:07 - HikariPool-1 - Start completed.
+""2020-03-16 14:05:07 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-16 14:05:07 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-16 14:05:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-16 14:05:08 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-16 14:05:09 - Adding welcome page template: index
+""2020-03-16 14:05:09 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-16 14:05:09 - 
+
+Using generated security password: cb089e86-c12b-4f68-9463-9351b8f8c371
+
+""2020-03-16 14:05:10 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@380e33c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@68454ed5, org.springframework.security.web.header.HeaderWriterFilter@1a66be41, org.springframework.security.web.csrf.CsrfFilter@53fbb2b4, org.springframework.security.web.authentication.logout.LogoutFilter@7a3a49e5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b98355f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b317e7d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3bc891f2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@30bd39d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@749ad37c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68479e8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@445b85d7, org.springframework.security.web.session.SessionManagementFilter@fd14789, org.springframework.security.web.access.ExceptionTranslationFilter@d0fabc8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53e4a19e]
+""2020-03-16 14:05:10 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-16 14:05:10 - Started FlightSearchProgramApplicationTests in 6.294 seconds (JVM running for 7.536)
+""2020-03-16 14:05:10 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-16 14:05:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-16 14:05:10 - HikariPool-1 - Shutdown initiated...
+""2020-03-16 14:05:10 - HikariPool-1 - Shutdown completed.
+""2020-03-16 14:08:50 - Starting FlightSearchProgramApplicationTests on vinayprajapati with PID 14704 (started by vinayprajapati in E:\FlightSearchProgram)
+""2020-03-16 14:08:50 - No active profile set, falling back to default profiles: default
+""2020-03-16 14:08:52 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-16 14:08:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-16 14:08:52 - Finished Spring Data repository scanning in 78ms. Found 1 JPA repository interfaces.
+""2020-03-16 14:08:52 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-16 14:08:52 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-16 14:08:52 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.flightsearch.repository.FlightRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-16 14:08:52 - Finished Spring Data repository scanning in 10ms. Found 0 LDAP repository interfaces.
+""2020-03-16 14:08:53 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-16 14:08:53 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-16 14:08:53 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-16 14:08:53 - HikariPool-1 - Starting...
+""2020-03-16 14:08:54 - HikariPool-1 - Start completed.
+""2020-03-16 14:08:54 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-16 14:08:55 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-16 14:08:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-16 14:08:56 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-16 14:08:56 - Adding welcome page template: index
+""2020-03-16 14:08:56 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-16 14:08:57 - 
+
+Using generated security password: 23e22bc8-8bbb-49a9-b2f0-25a4e283f259
+
+""2020-03-16 14:08:57 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@689eab53, org.springframework.security.web.context.SecurityContextPersistenceFilter@36dc6b9, org.springframework.security.web.header.HeaderWriterFilter@17873842, org.springframework.security.web.csrf.CsrfFilter@5749e633, org.springframework.security.web.authentication.logout.LogoutFilter@48d24d63, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47fbf95e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1104ad6a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1c24639e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6046fba0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4844e24b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62cb977a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c9168c3, org.springframework.security.web.session.SessionManagementFilter@315365ef, org.springframework.security.web.access.ExceptionTranslationFilter@6f00c40e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@702432cc]
+""2020-03-16 14:08:57 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-16 14:08:57 - Started FlightSearchProgramApplicationTests in 7.425 seconds (JVM running for 8.667)
+""2020-03-16 14:08:58 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-16 14:08:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-16 14:08:58 - HikariPool-1 - Shutdown initiated...
+""2020-03-16 14:08:58 - HikariPool-1 - Shutdown completed.
+""2020-03-16 14:13:06 - Starting FlightSearchProgramApplication on vinayprajapati with PID 14332 (E:\FlightSearchProgram\target\classes started by vinayprajapati in E:\FlightSearchProgram)
+""2020-03-16 14:13:06 - No active profile set, falling back to default profiles: default
+""2020-03-16 14:13:07 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-16 14:13:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-16 14:13:07 - Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+""2020-03-16 14:13:07 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-16 14:13:07 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-16 14:13:07 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.flightsearch.repository.FlightRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-16 14:13:07 - Finished Spring Data repository scanning in 5ms. Found 0 LDAP repository interfaces.
+""2020-03-16 14:13:07 - Tomcat initialized with port(s): 7070 (http)
+""2020-03-16 14:13:07 - Starting service [Tomcat]
+""2020-03-16 14:13:07 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+""2020-03-16 14:13:07 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+""2020-03-16 14:13:07 - Initializing Spring embedded WebApplicationContext
+""2020-03-16 14:13:07 - Root WebApplicationContext: initialization completed in 1741 ms
+""2020-03-16 14:13:08 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-16 14:13:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-16 14:13:08 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-16 14:13:08 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-16 14:13:08 - HikariPool-1 - Starting...
+""2020-03-16 14:13:08 - HikariPool-1 - Start completed.
+""2020-03-16 14:13:08 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-16 14:13:09 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-16 14:13:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-16 14:13:09 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-16 14:13:09 - Adding welcome page template: index
+""2020-03-16 14:13:09 - 
+
+Using generated security password: 3685798e-9748-4cfb-924a-336c85341073
+
+""2020-03-16 14:13:09 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5efe5b25, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dbb3fb7, org.springframework.security.web.header.HeaderWriterFilter@7c0de229, org.springframework.security.web.csrf.CsrfFilter@1640f20f, org.springframework.security.web.authentication.logout.LogoutFilter@50de907a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ba06506, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@17d2b646, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@45707f76, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58e02359, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@182cc69e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27502e5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f0e2bdc, org.springframework.security.web.session.SessionManagementFilter@4756e5cc, org.springframework.security.web.access.ExceptionTranslationFilter@698f4aa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36238b12]
+""2020-03-16 14:13:09 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-16 14:13:10 - Tomcat started on port(s): 7070 (http) with context path ''
+""2020-03-16 14:13:10 - Started FlightSearchProgramApplication in 4.213 seconds (JVM running for 5.064)
+""2020-03-16 14:13:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-03-16 14:13:10 - Initializing Servlet 'dispatcherServlet'
+""2020-03-16 14:13:10 - Completed initialization in 7 ms
 "

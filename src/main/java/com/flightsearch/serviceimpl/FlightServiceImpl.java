@@ -60,9 +60,6 @@ public class FlightServiceImpl implements FlightService {
 
 			});
 			break;
-		default:
-			System.out.println("Invalid Choice");
-			break;
 
 		}
 		return result;
